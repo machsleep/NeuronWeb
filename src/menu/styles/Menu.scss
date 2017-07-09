@@ -1,0 +1,47 @@
+@import "../../styles/_variables.scss";
+@import "../../styles/font-awesome/css/font-awesome.css";
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+
+// Local variables
+$focusColor: #ffffff;
+$menuColor: #414141;
+$menuItemColor: #8FD4D9;
+
+.bm-burger-button {
+  position: fixed;
+  width: 1.3em;
+  height: 1.3em;
+  left: 1.3em;
+  top: 1.3em;
+}
+
+.bm-burger-bars {
+  background: $baseFontColor;
+}
+
+.bm-morph-shape {
+  fill: $menuColor;
+}
+
+.bm-menu {
+  background: $menuColor;
+  a {
+    color: $baseFontColor;
+    &:hover,
+    &:focus {
+      color: $focusColor;
+    }
+  }
+}
+
+.bm-item-list a {
+  padding: 0.66em;
+  color: $baseFontColor;
+  span {
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 1.2em;
+  }
+}

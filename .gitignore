@@ -19,3 +19,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+src/styles/*.css
+src/menu/styles/*.css
+src/sections/styles/*.css
+src/sections/about/*.css
+src/sections/getting-started/styles/*.css
+src/*.css
